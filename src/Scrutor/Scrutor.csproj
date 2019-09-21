@@ -9,7 +9,7 @@
     <Nullable>enable</Nullable>
     <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <PackageId>Scrutor</PackageId>
+    <PackageId>Scrutor.Elsa</PackageId>
     <PackageVersion>1.0.0</PackageVersion>
     <PackageTags>Dependency;Injection;DI;Scanning;Conventions;Decoration</PackageTags>
     <PackageProjectUrl>https://github.com/khellang/Scrutor</PackageProjectUrl>
