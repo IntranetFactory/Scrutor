@@ -11,6 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Scrutor.Elsa\Scrutor.Elsa.csproj" />
+    <ProjectReference Include="..\..\src\Elsa.Scrutor\Elsa.Scrutor.csproj" />
   </ItemGroup>
 </Project>
