@@ -278,7 +278,7 @@ namespace Scrutor.Tests
                     .AddClasses()
                         .UsingAttributes()));
 
-            Assert.Equal(@"Type ""Scrutor.Tests.WrongInheritance"" is not assignable to ""Scrutor.Tests.IWrongInheritanceA"".", ex.Message);
+            Assert.Equal(@"Type ""Scrutor.Elsa.Tests.WrongInheritance"" is not assignable to ""Scrutor.Elsa.Tests.IWrongInheritanceA"".", ex.Message);
         }
 
         [Fact]
@@ -291,7 +291,7 @@ namespace Scrutor.Tests
                     .AddClasses(t => t.AssignableTo<IDuplicateInheritance>())
                         .UsingAttributes()));
 
-            Assert.Equal(@"Type ""Scrutor.Tests.DuplicateInheritance"" has multiple ServiceDescriptor attributes with the same service type.", ex.Message);
+            Assert.Equal(@"Type ""Scrutor.Elsa.Tests.DuplicateInheritance"" has multiple ServiceDescriptor attributes with the same service type.", ex.Message);
         }
 
         [Fact]

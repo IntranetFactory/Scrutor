@@ -1,4 +1,4 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{34EEB067-2738-4DD0-8596-D67A9461833A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scrutor", "src\Scrutor\Scrutor.csproj", "{1D63DA77-E425-4FEA-BC82-94A8F6C3024E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scrutor.Elsa", "src\Scrutor.Elsa\Scrutor.Elsa.csproj", "{1D63DA77-E425-4FEA-BC82-94A8F6C3024E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scrutor.Tests", "test\Scrutor.Tests\Scrutor.Tests.csproj", "{B065DC10-3AD1-462B-A90E-9BE86403243E}"
 EndProject
